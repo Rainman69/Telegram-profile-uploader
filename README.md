@@ -21,8 +21,8 @@ Install Termux & Initial Setup
 سپس ترموکس را باز کرده و این دستورات را وارد کنید:
 
 
-pkg update && pkg upgrade -y
-pkg install python git -y
+```pkg update && pkg upgrade -y```
+```pkg install python git -y```
 
 English:
 
@@ -31,8 +31,8 @@ First, download and install Termux from F-Droid (not Google Play).
 Open Termux and run the following commands:
 
 
-pkg update && pkg upgrade -y
-pkg install python git -y
+```pkg update && pkg upgrade -y```
+```pkg install python git -y```
 
 
 ---
@@ -44,12 +44,12 @@ Install Python Prerequisites
 فارسی:
 برای اجرای این اسکریپت به کتابخانه‌ی Telethon نیاز دارید. دستور زیر را وارد کنید:
 
-pip install telethon
+```pip install telethon```
 
 English:
 This script requires the Telethon library. Run:
 
-pip install telethon
+```pip install telethon```
 
 
 ---
@@ -65,12 +65,12 @@ Save & Run the Script from Any Location
 سپس در ترموکس، با استفاده از دستور cd وارد آن پوشه شوید. نمونه:
 
 
-cd /data/data/com.termux/files/home/storage/downloads
+```cd /data/data/com.termux/files/home/storage/downloads```
 
 حالا برای اجرای اسکریپت، دستور زیر را وارد کنید:
 
 
-python tgprof.py
+```python tgprof.py```
 
 English:
 
@@ -79,12 +79,12 @@ Save the tgprof.py script in any folder you like (e.g., Download or scripts).
 In Termux, navigate to that folder using cd. Example:
 
 
-cd /data/data/com.termux/files/home/storage/downloads
+```cd /data/data/com.termux/files/home/storage/downloads```
 
 Then run the script:
 
 
-python tgprof.py
+```python tgprof.py```
 
 
 ---
